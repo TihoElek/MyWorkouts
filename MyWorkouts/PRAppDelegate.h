@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PRWorkoutsDataManager.h"
 
 @interface PRAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) PRWorkoutsDataManager *workoutsDataMgr;
 
 @end

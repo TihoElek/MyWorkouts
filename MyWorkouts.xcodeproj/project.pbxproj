@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E15189D193BDF3E007D7C42 /* PREditWorkoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E15189C193BDF3E007D7C42 /* PREditWorkoutViewController.m */; };
+		1E1518CB193BFB0C007D7C42 /* InitialWorkouts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E1518CA193BFB0C007D7C42 /* InitialWorkouts.plist */; };
 		1E2CBDC1193B643D009ACF6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2CBDC0193B643D009ACF6D /* Foundation.framework */; };
 		1E2CBDC3193B643D009ACF6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2CBDC2193B643D009ACF6D /* CoreGraphics.framework */; };
 		1E2CBDC5193B643D009ACF6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2CBDC4193B643D009ACF6D /* UIKit.framework */; };
@@ -14,13 +16,17 @@
 		1E2CBDCD193B643D009ACF6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CBDCC193B643D009ACF6D /* main.m */; };
 		1E2CBDD1193B643D009ACF6D /* PRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CBDD0193B643D009ACF6D /* PRAppDelegate.m */; };
 		1E2CBDD4193B643D009ACF6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2CBDD2193B643D009ACF6D /* Main.storyboard */; };
-		1E2CBDD7193B643D009ACF6D /* PRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CBDD6193B643D009ACF6D /* PRViewController.m */; };
 		1E2CBDD9193B643D009ACF6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2CBDD8193B643D009ACF6D /* Images.xcassets */; };
 		1E2CBDE0193B643D009ACF6D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2CBDDF193B643D009ACF6D /* XCTest.framework */; };
 		1E2CBDE1193B643D009ACF6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2CBDC0193B643D009ACF6D /* Foundation.framework */; };
 		1E2CBDE2193B643D009ACF6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2CBDC4193B643D009ACF6D /* UIKit.framework */; };
 		1E2CBDEA193B643D009ACF6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E2CBDE8193B643D009ACF6D /* InfoPlist.strings */; };
 		1E2CBDEC193B643D009ACF6D /* MyWorkoutsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CBDEB193B643D009ACF6D /* MyWorkoutsTests.m */; };
+		1E2CBDFA193B6476009ACF6D /* PRWorkoutsDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CBDF9193B6476009ACF6D /* PRWorkoutsDataManager.m */; };
+		1E2CBDFD193B65E4009ACF6D /* PRWorkoutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CBDFC193B65E4009ACF6D /* PRWorkoutsViewController.m */; };
+		1E2CBE00193BAD6E009ACF6D /* PRWorkoutDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CBDFF193BAD6E009ACF6D /* PRWorkoutDetailViewController.m */; };
+		1E574EB1193BFBF30096521A /* push-up.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1E574EB0193BFBF30096521A /* push-up.jpeg */; };
+		1E574EB3193BFC220096521A /* pull-up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E574EB2193BFC220096521A /* pull-up.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +40,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E15189B193BDF3E007D7C42 /* PREditWorkoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PREditWorkoutViewController.h; sourceTree = "<group>"; };
+		1E15189C193BDF3E007D7C42 /* PREditWorkoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PREditWorkoutViewController.m; sourceTree = "<group>"; };
+		1E1518CA193BFB0C007D7C42 /* InitialWorkouts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InitialWorkouts.plist; sourceTree = "<group>"; };
 		1E2CBDBD193B643D009ACF6D /* MyWorkouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWorkouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2CBDC0193B643D009ACF6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1E2CBDC2193B643D009ACF6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1E2CBDC4193B643D009ACF6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		1E2CBDC8193B643D009ACF6D /* MyWorkouts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyWorkouts-Info.plist"; sourceTree = "<group>"; };
 		1E2CBDCA193B643D009ACF6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E2CBDCC193B643D009ACF6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E2CBDCE193B643D009ACF6D /* MyWorkouts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyWorkouts-Prefix.pch"; sourceTree = "<group>"; };
 		1E2CBDCF193B643D009ACF6D /* PRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRAppDelegate.h; sourceTree = "<group>"; };
 		1E2CBDD0193B643D009ACF6D /* PRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRAppDelegate.m; sourceTree = "<group>"; };
 		1E2CBDD3193B643D009ACF6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1E2CBDD5193B643D009ACF6D /* PRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRViewController.h; sourceTree = "<group>"; };
-		1E2CBDD6193B643D009ACF6D /* PRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRViewController.m; sourceTree = "<group>"; };
 		1E2CBDD8193B643D009ACF6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1E2CBDDE193B643D009ACF6D /* MyWorkoutsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWorkoutsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2CBDDF193B643D009ACF6D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1E2CBDE7193B643D009ACF6D /* MyWorkoutsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyWorkoutsTests-Info.plist"; sourceTree = "<group>"; };
 		1E2CBDE9193B643D009ACF6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E2CBDEB193B643D009ACF6D /* MyWorkoutsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWorkoutsTests.m; sourceTree = "<group>"; };
+		1E2CBDF8193B6476009ACF6D /* PRWorkoutsDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRWorkoutsDataManager.h; sourceTree = "<group>"; };
+		1E2CBDF9193B6476009ACF6D /* PRWorkoutsDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRWorkoutsDataManager.m; sourceTree = "<group>"; };
+		1E2CBDFB193B65E4009ACF6D /* PRWorkoutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRWorkoutsViewController.h; path = ../PRWorkoutsViewController.h; sourceTree = "<group>"; };
+		1E2CBDFC193B65E4009ACF6D /* PRWorkoutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRWorkoutsViewController.m; path = ../PRWorkoutsViewController.m; sourceTree = "<group>"; };
+		1E2CBDFE193BAD6E009ACF6D /* PRWorkoutDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRWorkoutDetailViewController.h; sourceTree = "<group>"; };
+		1E2CBDFF193BAD6E009ACF6D /* PRWorkoutDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRWorkoutDetailViewController.m; sourceTree = "<group>"; };
+		1E574EB0193BFBF30096521A /* push-up.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "push-up.jpeg"; sourceTree = "<group>"; };
+		1E574EB2193BFC220096521A /* pull-up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pull-up.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +127,18 @@
 			isa = PBXGroup;
 			children = (
 				1E2CBDCF193B643D009ACF6D /* PRAppDelegate.h */,
+				1E2CBDFB193B65E4009ACF6D /* PRWorkoutsViewController.h */,
+				1E2CBDFC193B65E4009ACF6D /* PRWorkoutsViewController.m */,
+				1E2CBDFE193BAD6E009ACF6D /* PRWorkoutDetailViewController.h */,
+				1E2CBDFF193BAD6E009ACF6D /* PRWorkoutDetailViewController.m */,
+				1E15189B193BDF3E007D7C42 /* PREditWorkoutViewController.h */,
+				1E15189C193BDF3E007D7C42 /* PREditWorkoutViewController.m */,
 				1E2CBDD0193B643D009ACF6D /* PRAppDelegate.m */,
 				1E2CBDD2193B643D009ACF6D /* Main.storyboard */,
-				1E2CBDD5193B643D009ACF6D /* PRViewController.h */,
-				1E2CBDD6193B643D009ACF6D /* PRViewController.m */,
 				1E2CBDD8193B643D009ACF6D /* Images.xcassets */,
 				1E2CBDC7193B643D009ACF6D /* Supporting Files */,
+				1E2CBDF8193B6476009ACF6D /* PRWorkoutsDataManager.h */,
+				1E2CBDF9193B6476009ACF6D /* PRWorkoutsDataManager.m */,
 			);
 			path = MyWorkouts;
 			sourceTree = "<group>";
@@ -126,7 +146,9 @@
 		1E2CBDC7193B643D009ACF6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1E2CBDC8193B643D009ACF6D /* MyWorkouts-Info.plist */,
+				1E574EB2193BFC220096521A /* pull-up.jpg */,
+				1E574EB0193BFBF30096521A /* push-up.jpeg */,
+				1E1518CA193BFB0C007D7C42 /* InitialWorkouts.plist */,
 				1E2CBDC9193B643D009ACF6D /* InfoPlist.strings */,
 				1E2CBDCC193B643D009ACF6D /* main.m */,
 				1E2CBDCE193B643D009ACF6D /* MyWorkouts-Prefix.pch */,
@@ -232,6 +254,9 @@
 				1E2CBDD9193B643D009ACF6D /* Images.xcassets in Resources */,
 				1E2CBDCB193B643D009ACF6D /* InfoPlist.strings in Resources */,
 				1E2CBDD4193B643D009ACF6D /* Main.storyboard in Resources */,
+				1E574EB3193BFC220096521A /* pull-up.jpg in Resources */,
+				1E1518CB193BFB0C007D7C42 /* InitialWorkouts.plist in Resources */,
+				1E574EB1193BFBF30096521A /* push-up.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2CBDFD193B65E4009ACF6D /* PRWorkoutsViewController.m in Sources */,
 				1E2CBDD1193B643D009ACF6D /* PRAppDelegate.m in Sources */,
-				1E2CBDD7193B643D009ACF6D /* PRViewController.m in Sources */,
 				1E2CBDCD193B643D009ACF6D /* main.m in Sources */,
+				1E2CBDFA193B6476009ACF6D /* PRWorkoutsDataManager.m in Sources */,
+				1E15189D193BDF3E007D7C42 /* PREditWorkoutViewController.m in Sources */,
+				1E2CBE00193BAD6E009ACF6D /* PRWorkoutDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +485,7 @@
 				1E2CBDF1193B643D009ACF6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E2CBDF2193B643D009ACF6D /* Build configuration list for PBXNativeTarget "MyWorkoutsTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +494,7 @@
 				1E2CBDF4193B643D009ACF6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

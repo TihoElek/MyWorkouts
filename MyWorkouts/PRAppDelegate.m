@@ -7,13 +7,23 @@
 //
 
 #import "PRAppDelegate.h"
+#import "PRWorkoutsDataManager.h"
 
 @implementation PRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    self.workoutsDataMgr = [[PRWorkoutsDataManager alloc] init];
+    
+    [self.workoutsDataMgr loadWorkouts];
+    
     return YES;
+}
+
++ (PRAppDelegate*)sharedAppDelegate
+{
+    return (PRAppDelegate*)[UIApplication sharedApplication].delegate;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -24,9 +34,11 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    
+    [self.workoutsDataMgr saveWorkouts];
 }
+
+
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {

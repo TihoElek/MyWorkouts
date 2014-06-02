@@ -1,5 +1,5 @@
 //
-//  PRViewController.h
+//  PRWorkoutsViewController.h
 //  MyWorkouts
 //
 //  Created by Tihomir Elek on 6/1/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PRViewController : UIViewController
+@interface PRWorkoutsViewController : UITableViewController
 
 @end

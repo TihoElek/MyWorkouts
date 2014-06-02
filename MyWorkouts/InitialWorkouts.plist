@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Push-up</string>
+		<key>location</key>
+		<string>5x20</string>
+		<key>description</key>
+		<string>A push-up is a common calisthenics exercise performed in a prone position by raising and lowering the body using the arms. Push-ups exercise the pectoral muscles, triceps, and anterior deltoids, with ancillary benefits to the rest of the deltoids, serratus anterior, coracobrachialis and the midsection as a whole.</string>
+		<key>image-name</key>
+		<string>push-up.jpeg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Pull-up</string>
+		<key>location</key>
+		<string>4x12</string>
+		<key>description</key>
+		<string>A pull-up is a variety of upper-body compound pulling motions for the purpose of exercise. The pull-up has two main methods of execution; the first is with a pronated (overhand) grip and the second is with a supinated (underhand) grip.</string>
+		<key>image-name</key>
+		<string>pull-up.jpg</string>
+	</dict>
+</array>
+</plist>
